@@ -1,0 +1,641 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+#main
+{
+    width: 100%;
+    height: 100%;
+    background-color: #181818;
+}
+#main nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   padding: 2vw 4vw;
+}
+ul
+{
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+    text-align: center;
+    
+}
+ul h1
+{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+li
+{
+    list-style: none;
+    color: rgb(96, 102, 108);
+    font-size: 1.1vmax;
+    font-weight: 500;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+li input
+{
+    background-color: #2A2A2A;
+    border: 1px solid  rgb(96, 102, 108);
+    padding: 1.1vh 2vw;
+    border-radius: 20px;
+   color: white;
+    
+}
+li input.active
+{
+    color: white;
+}
+.search
+{
+     transform: translateX(-40px);
+}
+.page1
+{
+    width: 100%;
+    height: 100%;
+    background-color: #181818;
+    padding: 7vw 4vw;
+    display: flex;
+    color: white;
+    
+    text-align: center;
+    justify-content: center;
+   gap: 15vw;
+}
+.right-p1
+{
+    margin-top: 3vw;
+}
+.right-p1 h1
+{
+    font-size: 5vw;
+    text-align: start;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.right-p1 p
+{
+    text-align: start;
+    color: #5a5858;
+}
+.btn
+{
+    margin-top: 4vw;
+    display: flex;
+    gap: 2vw;
+}
+.btn button
+{
+    padding: .8vw 2.5vw ;
+    border-radius: 3vw;
+    background-color: chocolate;
+    outline: none;
+    border: none;
+    color: white;
+
+}
+.ri-store-line
+{
+    color: white;
+}
+
+.left-p1 .img1
+{
+    width:27vw;
+    height:35vw;
+    border-radius: 50% 50% 5% 5%;
+    background-color: aqua;
+    background-image: url(https://images.unsplash.com/photo-1540932239986-30128078f3c5?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    
+}
+.play
+{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    color: chocolate;
+   .ri-play-fill
+   {
+   margin-left: 0.2vw;
+   } 
+
+}
+.likes
+{
+    display: flex;
+    gap: 3vw;
+    margin-top: 5vw;
+    text-align: start;
+    font-family: sans-serif;
+}
+.likes h1
+{
+    font-size: 1.3vw;
+    font-weight: 200;
+    
+}
+span
+{
+    color: chocolate;
+    font-weight: 300;
+    font-size: 0.9vw;
+    font-family: sans-serif;
+}
+.likes p
+{
+    color: #5a5858;
+    margin-top: 1vw;
+}
+.page2
+{
+    background-color: #181818;
+    width: 100%;
+    height: 5%;
+    padding: 6vw 11vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left-p2 p
+{
+    color: aliceblue;
+}
+
+.social
+{
+    display: flex;
+    gap: 1vw;
+    margin-top: 1.5vw;
+}
+.box
+{
+    width: 2vw;
+    height: 2vw;
+    background-color: white;
+    border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   
+}
+.img2
+{
+    width: 6vw;
+    height: 7vw;
+    background-color: aquamarine;
+    border-radius: 50% 50% 5% 5%;
+    background-image: url(./WhatsApp\ Image\ 2023-10-23\ at\ 12.11.35.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.right-p2{
+    display: flex;
+    gap: 3vw;
+}
+.text{
+    align-items: center;
+    color: aliceblue;
+    margin:2vw 0vw ;
+    font-style: oblique;
+
+}
+.read
+{
+    margin-top: 1.5vw;
+    align-items: center;
+    
+}
+.page3
+{
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0vw 4vw;
+    justify-content: space-around;
+   
+}
+.images
+{
+    display: flex;
+    gap: 4vw;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.images .img1
+{
+    width: 10vw;
+    height: 12vw;
+    background-color: aqua;
+    border-radius: 50% 50% 5% 5%;
+    background-image: url(./WhatsApp\ Image\ 2023-10-23\ at\ 12.11.36.jpeg);
+    background-position:center;
+    background-size: cover;
+} 
+.images p
+{
+    transform: translateY(12.5vw);
+}
+.c1
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4vw;
+    transform: translateY(13vw);
+}
+.circle
+{
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius:50% ;
+    color: white;
+    background-color:chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img3
+{
+    width: 12vw;
+    height: 15vw;
+    background-color: aqua;
+    border-radius: 50% 50% 5% 5%;
+    background-image: url(./WhatsApp\ Image\ 2023-10-23\ at\ 12.11.35\ \(1\).jpeg);
+    background-position:center;
+    background-size: cover;
+}
+.img4
+{
+    width: 12vw;
+    height: 15vw;
+    background-color: aqua;
+    border-radius: 50% 50% 5% 5%;
+    background-image: url(./WhatsApp\ Image\ 2023-10-23\ at\ 12.11.36\ \(1\).jpeg);
+    background-position:center;
+    background-size: cover;
+}
+.left-p3  h1
+{
+  font-size: 4vw;
+  color: white;
+  font-family: monospace;
+  letter-spacing: -4px;
+  font-weight: 400;
+  margin-bottom: 1vw;
+}
+.left-p3 p
+{
+    color: rgb(142, 146, 150);
+    font-family: sans-serif;
+    margin-bottom: 2vw;
+}
+.left-p3 button
+{
+    padding: 1vw 2.5vw;
+    color: white;
+    background-color: chocolate;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.1vw;
+}
+
+.page4
+{
+    width: 100%;
+    height: 140%;
+    background-color: #181818;
+   
+    padding: 0vw 4vw;
+}
+.head-p4
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4vw;
+}
+.head-p4 h1
+{
+    font-size: 2vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 1vw;
+}
+.head-p4 p
+{
+    color: rgb(74, 76, 78);
+    font-family: sans-serif;
+}
+
+.img-boxes-b1
+{
+    display: flex;
+   
+    justify-content: space-between;
+}
+.img-boxes-b2
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+}
+.imag1,.imag2,.imag3,.imag4
+{
+    width: 15vw;
+    height: 22vw;
+    background-color: #2A2A2A;
+    border-radius: 40% 40% 5% 5%; 
+    display: flex;
+    justify-content: center;
+     
+   
+}
+
+.imeg1,.imeg2,.imeg3,.imeg4
+{
+    width: 15vw;
+    height: 22vw;
+    background-color: #2A2A2A;
+    border-radius: 40% 40% 5% 5%; 
+    display: flex;
+    justify-content: center;
+    
+}
+.m1 {
+    width: 13vw;
+    height: 14vw;
+    background-color: #a30808;
+    border-radius: 40% 40% 5% 5%; 
+    margin-top:1vw;
+    background-image: url(./WhatsApp\ Image\ 2023-10-23\ at\ 12.11.36.jpeg);
+    background-size: cover;
+    background-position: center;
+     
+}
+.hp
+{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-top: 15.5vw;
+    gap: 0.2vw;
+    color: white;
+    font-size: 0.8vw;
+    font-family:sans-serif;
+    font-weight: 100;
+    transform: translateX(-23px);
+} 
+.hp p
+{
+    color: #5a5858;
+}
+.pr 
+{
+    display: flex;
+    position: absolute;
+    margin-top: 20vw;
+    gap: 8vw;
+    color: white;
+    
+    
+}
+.m2 {
+    width: 13vw;
+    height: 14vw;
+    background-color: #a30808;
+    border-radius: 40% 40% 5% 5%; 
+    margin-top:1vw;
+    background-image: url(./WhatsApp\ Image\ 2023-10-23\ at\ 12.11.35.jpeg);
+    background-size: cover;
+    background-position: center;
+     
+}
+.m3 {
+    width: 13vw;
+    height: 14vw;
+    background-color: #a30808;
+    border-radius: 40% 40% 5% 5%; 
+    margin-top:1vw;
+    background-image: url(https://images.unsplash.com/photo-1530603907829-659ab5ec057b?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+     
+}
+
+.m4 {
+    width: 13vw;
+    height: 14vw;
+    background-color:white;
+    border-radius: 40% 40% 5% 5%; 
+    margin-top:1vw;
+    background-image: url(./Our-company_About-us.png);
+    background-size: cover;
+    background-position: center;
+   /* margin-left: 1vw; */
+     
+}
+.m5 {
+    width: 13vw;
+    height: 14vw;
+    background-color:white;
+    border-radius: 40% 40% 5% 5%; 
+    margin-top:1vw;
+    background-image: url(https://www.ibm.com/design/workplace/static/a116b188b29c22ad4736cba2293bd12d/473e3/05_hanging_lights.jpg);
+    background-size: cover;
+  background-position: bottom;
+   /* margin-left: 1vw; */
+     
+}
+.m6 {
+    width: 13vw;
+    height: 14vw;
+    background-color:white;
+    border-radius: 40% 40% 5% 5%; 
+    margin-top:1vw;
+    background-image: url(https://cdn.wallapop.com/images/10420/fk/2g/__/c10420p940699832/i3508469996.jpg?pictureSize=W640);
+    background-size: cover;
+    background-position: center;
+   /* margin-left: 1vw; */
+     
+}
+.m7 {
+    width: 13vw;
+    height: 14vw;
+    background-color:white;
+    border-radius: 40% 40% 5% 5%; 
+    margin-top:1vw;
+    background-image: url(https://muffingroup.com/betheme/assets/images/placeholders/shop-1.webp);
+    background-size: cover;
+    background-position: center;
+   /* margin-left: 1vw; */
+     
+}
+.m8 {
+    width: 13vw;
+    height: 14vw;
+    background-color:white;
+    border-radius: 40% 40% 5% 5%; 
+    margin-top:1vw;
+    background-image: url(https://images.unsplash.com/photo-1578735547343-c244180a2e11?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+   /* margin-left: 1vw; */
+     
+}
+
+.btn3
+{
+   margin-left: 45%;
+   margin-top: 4vw;
+   padding: 0.8vw 3vw;
+   color: white;
+   border: 1px solid red;
+   background-color: transparent;
+   border-radius: 30px;
+}
+.page5
+{  
+    width: 100%;
+    height: 75%;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imeg2 .hp h1,.imeg2 .hp p
+{
+  transform: translateX(12px);
+}
+.boxes
+{
+    width: 570px;
+    height: 260px;
+    background-color: #201f1f;
+    color: white;
+    font-family: cursive;
+    padding:1vw 2vw ;
+}
+.boxes p
+{
+    color: #5a5858;
+    margin-top: 0.8vw;
+}
+.p5-img
+{
+    width: 270px;
+    height: 340px;
+    background-color: aqua;
+    transform: translate(-20px,-40px);
+    border-radius: 40% 40% 5% 5%; 
+    background-image: url(./p5.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+.btn4
+{
+    padding: 0.7vw 2vw;
+    margin-top: 2vw;
+    background-color: chocolate;
+    border-radius: 30px;
+    color: white;
+    border:none;
+    font-family: sans-serif;
+}
+.footer
+{
+    width: 100%;
+    height: 80%;
+    background-color: #181818;
+}
+.footer .line
+{
+    width: 100%;
+    border-top: 1px solid rgb(102, 100, 100);
+}
+.footer-content{
+    display: flex;
+    padding: 5vw 4vw;
+    gap: 6vw;
+}
+.fc-right
+{
+    display: flex;
+    gap: 5vw;
+}
+.fc1 ul,.fc2 ul,.fc3 ul,.fc4 ul
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.fc1 ul li,.fc2 ul li,.fc3 ul li,.fc4 ul li
+{
+    margin-top: -2vw;
+}
+.fc-left h1
+{
+    color: rgb(174, 166, 166);
+    font-size: 1.2vw;
+    font-family: sans-serif;
+   margin-bottom: 2vw;
+}
+.fc-left p
+{
+    color: #5a5858;
+    font-family: sans-serif;
+     line-height: 25px;
+     margin-bottom: 1vw;
+}
+.lines
+{
+    width: 90%;
+    border-top: 1px solid rgb(102, 100, 100);
+    margin-left:3vw ;
+}
+.buttom-f
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 3vw;
+    align-items: center;
+    text-align: center;
+}
+.buttom-f ul
+{
+    display: flex;
+    gap: 2vw;
+}
+.buttom-f p
+{
+    color: rgb(94, 90, 90);
+    transform: translateX(-60px);
+}
